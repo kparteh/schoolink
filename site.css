@@ -19,3 +19,46 @@ body{background:#fff;color:var(--ink)}button:focus-visible,a:focus-visible,input
 .footer{background:#0b1f38;color:#fff}
 .footer .footer-heading,.footer .footer-intro p,.footer .footer-links a,.footer .footer-text,.footer .footer-bottom,.footer .back-top{color:#fff}
 .footer .footer-links a:hover,.footer .back-top:hover{color:#fff}
+
+/* Larger, higher-contrast type for comfortable reading. */
+body{font-size:18px;line-height:1.65;color:#10243e}
+.topline-inner{font-size:13px}
+.nav a{font-size:15px}
+.brand-copy small{font-size:11px;color:#405872}
+.eyebrow{font-size:12px}
+.hero-copy{font-size:18px;line-height:1.8;color:#3c526b}
+.hero-note,.corner-label,.welcome-chip{font-size:13px}
+.stat-copy span{font-size:13px}
+.section-heading>p,.about-copy>p,.admissions-copy>p,.contact-copy>p,.welcome-copy>p,.life-copy>p{font-size:17px;line-height:1.8;color:#3c526b}
+.program-card p{font-size:16px;line-height:1.8;color:#3c526b}
+.program-card .text-link,.text-link{font-size:15px}
+.value-card p,.values-head>p{font-size:15px;line-height:1.8;color:#3c526b}
+.step p{font-size:15px;line-height:1.8;color:#e3eaf2}
+.life-item{font-size:16px}
+.field label{font-size:14px;color:#243d59}
+.field input,.field select,.field textarea{font-size:16px}
+.form-caption{font-size:15px;line-height:1.7}
+.form-note{font-size:13px;line-height:1.7}
+.form-status,.faq-answer{font-size:15px;line-height:1.8}
+.faq-question{font-size:18px}
+.footer-heading{font-size:13px}
+.footer-links a,.footer-text,.footer-intro p{font-size:15px;line-height:1.8}
+.footer-bottom{font-size:13px;line-height:1.6}
+@media(max-width:700px){
+ body{font-size:17px}
+ .topline-inner,.topline-message,.topline-links{font-size:12px}
+ .nav a{font-size:16px}
+ .brand-copy small{font-size:10px}
+ .eyebrow{font-size:11px}
+ .hero-copy{font-size:17px}
+ .hero-note,.corner-label,.welcome-chip{font-size:12px}
+ .section-heading>p,.about-copy>p,.admissions-copy>p,.contact-copy>p,.welcome-copy>p,.life-copy>p{font-size:16px}
+ .program-card p,.value-card p,.values-head>p,.step p{font-size:15px}
+ .life-item{font-size:15px}
+ .field label{font-size:13px}
+ .form-caption{font-size:14px}
+ .form-note{font-size:12px}
+ .faq-answer{font-size:14px}
+ .footer-links a,.footer-text,.footer-intro p{font-size:14px}
+ .footer-bottom{font-size:12px;flex-wrap:wrap}
+}
